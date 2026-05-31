@@ -19,7 +19,7 @@ def search(nums,target):
     if nums[mid] == target :
       return mid
   
-    if nums[low] <= target < nums[mid] :
+    if target < nums[mid] :
       high = mid -1
     else :
       low = mid + 1
