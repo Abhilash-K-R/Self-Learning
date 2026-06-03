@@ -20,26 +20,15 @@ Explanation: "raceacar" is not a palindrome.
 
 class Solution(object):
     def isPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+       
+        cleaned = [c.lower() for c in s if c.isalnum()]
 
-        left = 0
-        right = len(s) - 1
+        lo , hi = 0 , len(cleaned)-1
 
-        while left < right:
-
-            while left < right and not s[left].isalnum():
-                left += 1
-
-            while left < right and not s[right].isalnum():
-                right -= 1
-
-            if s[left].lower() != s[right].lower():
+        while lo < hi :
+            if cleaned[lo] != cleaned[hi] :
                 return False
 
-            left += 1
-            right -= 1
-
+            lo += 1
+            hi -=1
         return True
