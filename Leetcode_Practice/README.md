@@ -10,7 +10,6 @@ A daily discipline of solving LeetCode problems to sharpen problem-solving skill
 
 - `C`
 - `Python`
-
 ---
 
 ## Progress
