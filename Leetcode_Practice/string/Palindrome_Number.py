@@ -34,3 +34,9 @@ class Solution(object):
             x //= 10
 
         return x == rev or x == rev // 10
+
+# or
+
+class Solution(object):
+    def isPalindrome(self, x):
+        return str(x) == str(x)[::-1]
