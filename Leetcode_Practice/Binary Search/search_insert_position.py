@@ -13,6 +13,8 @@ Example 3:
 Input: nums = [1,3,5,6], target = 7
 Output: 4
 '''
+
+# binary search
 def searchInsert(nums,target):
   low , high = 0 ,len(nums)-1
   while low <= high:
@@ -25,3 +27,12 @@ def searchInsert(nums,target):
     else :
       low = mid + 1
   return low
+
+# linear search
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        for i in range(len(nums)):
+            if nums[i] >= target:
+                return i
+        
+        return len(nums)
