@@ -44,3 +44,14 @@ class Solution:
                 li.append(i)
         
         return li
+
+# or
+
+class Solution:
+    def findMissingElements(self, nums: List[int]) -> List[int]:
+        nums.sort()
+        li = []
+        for i in range(nums[0], nums[-1]):
+            if i not in nums:
+                li.append(i)
+        return li
