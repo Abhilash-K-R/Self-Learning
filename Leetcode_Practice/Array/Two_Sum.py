@@ -24,11 +24,6 @@ Explanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We retur
 
 class Solution(object):
     def twoSum(self, numbers, target):
-        """
-        :type numbers: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
         left , right = 0 , len(numbers)-1
 
         while left < right :
