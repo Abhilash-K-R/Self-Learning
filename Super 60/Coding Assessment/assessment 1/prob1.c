@@ -6,6 +6,7 @@ Input: [1,2,3,4,5], k=2
 Output: [3,4,5,1,2]
 */
 
+
 #include <stdio.h>
 
 void reverse(int arr[], int start, int end) {
