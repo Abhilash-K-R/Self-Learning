@@ -5,6 +5,7 @@ I use this space to try new ideas, practice coding, test small projects, and kee
 
 ---
 
+
 ## What's inside
 
 | Folder | Description |
