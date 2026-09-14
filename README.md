@@ -1,3 +1,5 @@
+
+
 # Self-Learning
 A personal repository for learning, experiments, and practice.
 
@@ -11,7 +13,7 @@ I use this space to try new ideas, practice coding, test small projects, and kee
 |--------|-------------|
 | [LeetCode-Practice](./LeetCode-Practice/) | Daily LeetCode problem solving — organized by topic |
 
-> More folders will be added over time as I explore new topics.
+More folders will be added over time as I explore new topics.
 
 ---
 
